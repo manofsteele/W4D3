@@ -1,0 +1,13 @@
+<% action = session_url%>
+
+<form action="<%= action %>" method="post">
+  Welcome to 99 Cats! Sign in with a username and password below.
+  
+  <label for="username">Username: </label>
+  <input type="text" id="username" name="user[username]" value="">
+  <label for="password">Password: </label>
+  <input type="password" id="password" name="user[password]" value="">
+  
+  <input type="submit" value="Sign In!">
+  
+</form>
